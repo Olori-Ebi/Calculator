@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: rgb(4, 4, 26);
+  color: #fff;
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+section {
+  width: 30vw;
+  border: 1px solid rgb(41, 41, 92);
+  margin: 4rem auto;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section input {
+  width: 40%;
+  height: 40px;
+  border: 2px solid rgb(41, 41, 92);
+  margin: 0 auto;
+}
+
+button {
+  padding: 8px 15px;
+  margin-top: 10px;
+  text-align: center;
+  border: 1px solid rgb(41, 41, 92);
+  background: rgb(41, 41, 92);
+  color: #fff;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 18px;
+  color: rgb(41, 41, 92);
+}
